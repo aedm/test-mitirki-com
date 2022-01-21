@@ -33,5 +33,5 @@ jobs:
           npm run build
       - name: Deploy to AWS
         run: |
-          ./upload-to-aws
+          ./deploy-to-aws.sh
 
