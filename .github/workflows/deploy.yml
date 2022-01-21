@@ -27,7 +27,7 @@ jobs:
       - name: NPM install
         run: |
           cd $GITHUB_WORKSPACE
-          npm run ci
+          npm ci
       - name: Build
         run: |
           npm run build
